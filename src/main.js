@@ -1,4 +1,5 @@
 const { createApp } = require('vue');
-import App from "./App.vue";
+import App from './App.vue';
 
-createApp(App).mount("#app");
+const root = document.getElementById('app');
+createApp(App).mount(root);
